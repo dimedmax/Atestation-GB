@@ -2,3 +2,9 @@
 
         
         string[] resultArray = FilterStrings(inputArray);
+        
+        Console.WriteLine("Результат:");
+        foreach (string str in resultArray)
+        {
+            Console.WriteLine(str);
+        }
