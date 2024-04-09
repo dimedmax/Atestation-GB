@@ -20,4 +20,6 @@ static string[] FilterStrings(string[] inputArray)
             }
         }
 
+        string[] resultArray = new string[count];
+        int index = 0;
        
